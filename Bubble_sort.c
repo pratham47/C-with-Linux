@@ -149,5 +149,5 @@ int main()
                  }
 
     }
- }while(ch >= 1 && ch <= 3);
+ }while(ch >= 1 && ch <= 4);
 }
