@@ -21,7 +21,7 @@ void strncat_(char *str1 , char *str2,int n)
         len1++;
     }
 
-    for(int i = 0; str1[i] != '\0'; i++)
+    for(int i = 0; str1[i] != '\0' && i < n; i++)
     {
         len2++;
     }
