@@ -66,8 +66,5 @@ int main()
     }
 
    printf("Mth smallest number is: %d",arr[q_select(arr,n,m)]);
-
-   int k;
-   scanf("%d",&k);
    }
 
