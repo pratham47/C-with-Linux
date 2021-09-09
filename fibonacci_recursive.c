@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-void fibonacci_recursive(int first, int second, int num)
+void fibonacci(int first, int second, int num)
 {
     int third;
     for(int i=2; i < num * 3; i++)
@@ -23,5 +23,5 @@ int main()
     printf("Enter the number of elements: ");
     scanf("%d", &num);
 
-    fibonacci_recursive(first ,second, num);
+    fibonacci(first ,second, num);
 }
